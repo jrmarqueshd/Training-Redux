@@ -7,3 +7,5 @@ export const Gray = "#333";
 
 export const White = "#fff";
 export const WhiteSmoke = "#eee";
+
+export const Red = "#cd0000";

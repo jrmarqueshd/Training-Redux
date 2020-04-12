@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { DefaultColor, White, WhiteSmoke } from "../../Assets/styles/variables";
+import { DefaultColor, White } from "../../Assets/styles/variables";
 
 export const MenuWrapper = styled.nav`
 	display: flex;
