@@ -3,7 +3,9 @@ import { DefaultColor, White } from "../../Assets/styles/variables";
 
 export const MenuWrapper = styled.nav`
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
 	margin: 0 auto 30px;
 	max-width: 1140px;
 	padding: 15px;
@@ -31,7 +33,15 @@ export const Logo = styled.h1`
 export const MenuList = styled.ul`
 	display: block;
 	list-style: none;
-	margin-left: auto;
+	margin: 50px auto 0;
+	width: 100%;
+	text-align: center;
+
+	@media screen and (min-width: 768px) {
+		width: auto;
+		margin: 0;
+		margin-left: auto;
+	}
 `;
 
 export const MenuItem = styled.li`
